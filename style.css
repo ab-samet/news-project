@@ -4,3 +4,43 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+/* -------------------------------------------------------------------------- */
+/*                                   header                                   */
+/* -------------------------------------------------------------------------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 0 1rem;
+}
+header.logo{
+    display: flex;
+    align-items: center;
+}
+header .logo img{
+    width: 60px;
+    height: 60px;
+}
+header .logo p{
+    font-weight: 600;
+}
+header .vector p{
+    display: inline-block;
+    padding: 1rem;
+}
+header .vector p i{
+    width: 10px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                     NAV                                    */
+/* -------------------------------------------------------------------------- */
+
+nav{
+    background-color: rgb(32, 136, 159);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
