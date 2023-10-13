@@ -44,3 +44,29 @@ nav{
     align-items: center;
     color: white;
 }
+nav h2{
+    font-family: "Kenia", cursive;
+    font-size: 2rem;
+    margin: 1rem;
+    font-weight: 500;
+}
+nav .nav-bar{
+    display: flex;
+    align-items: center;
+}
+nav .nav-bar a{
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+nav .nav-bar .right-text{
+    font-weight: 600;
+}
+nav .nav-bar img{
+    width: 78px;
+    height: 70px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    MAIN                                    */
+/* -------------------------------------------------------------------------- */
